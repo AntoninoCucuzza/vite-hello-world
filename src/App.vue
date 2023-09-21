@@ -2,12 +2,11 @@
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  Data() {
+  data() {
     return {
-      message: 'hello Vue3 and Vite!',
+      message: 'hello Vite and Vue3!',
     }
-  }
-
+  },
 }
 </script>
 
@@ -20,8 +19,8 @@ export default {
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <p>{{ message }}</p>
-  <p>we</p>
+  <h1>{{ message }}</h1>
+  <p></p>
 </template>
 
 <style >
