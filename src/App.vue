@@ -1,5 +1,6 @@
 <script >
 import AppTitle from './/components/AppTitle.vue';
+import Jumbotron from './components/jumbotron.vue';
 
 export default {
   data() {
@@ -8,7 +9,8 @@ export default {
     }
   },
   components: {
-    AppTitle
+    AppTitle,
+    Jumbotron
   }
 }
 </script>
@@ -24,7 +26,8 @@ export default {
     </a>
   </div>
   <h1>{{ message }}</h1>
-  <p></p>
+
+  <Jumbotron />
 </template>
 
 <style >
